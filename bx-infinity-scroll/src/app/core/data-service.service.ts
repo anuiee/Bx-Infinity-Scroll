@@ -17,7 +17,7 @@ export class DataServiceService {
       return this.http.get<any[]>(url);
     }
     chunkSize = 20; // Number of items to load per chunk
-    totalItems = 1000; // Total number of items in the dataset
+    totalItems = 500; // Total number of items in the dataset
 
   
   // Simulated API call to fetch data for a given range
