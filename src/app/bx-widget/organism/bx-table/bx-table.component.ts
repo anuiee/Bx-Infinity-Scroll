@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { DataServiceService } from '../../../core/data-service.service';
+import { DataServiceService } from '../../../bx-core/data-service.service';
+
 
 @Component({
   selector: 'app-bx-table',
